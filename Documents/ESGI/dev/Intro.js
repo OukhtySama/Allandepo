@@ -1,7 +1,8 @@
-let uneString = '';
+let myArray = ['Hello', 'test', 'bonjour', 'hola']
 
-const uneAutreString = uneString.concat(' ','test')
+console.log('myArray: ', myArray)
 
-console.log(uneString)
-console.log(uneAutreString)
+let deletedElements = myArray.splice(1, 2)
 
+console.log('myArray: ', myArray)
+console.log('deletedElements: ', deletedElements)
