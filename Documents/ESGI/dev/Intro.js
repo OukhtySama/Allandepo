@@ -1,11 +1,15 @@
-let myArray = ['Hello', 'test', 'bonjour', 'hola']
+const myArray = ['test', 'test']
 
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
-    if (element) {
-        index = 3
+const myObject = {
+    name: 'test',
+    lastname: 'test',
+    age: 0
+}
+
+for (const key in myArray) {
+    //if (Object.hasOwnProperty.call(object, key)) {
+
         console.log(myArray)
         
-    }
-    console.log(element)
+    //}
 }
