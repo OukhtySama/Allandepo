@@ -11,3 +11,4 @@ Toujours utilisé let et const plutôt que var
 aller sur les deux sites suivants pour la doc :
 - https://nodejs.org/docs/latest-v18.x/api/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+

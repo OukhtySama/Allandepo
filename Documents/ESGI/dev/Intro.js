@@ -1,8 +1,11 @@
 let myArray = ['Hello', 'test', 'bonjour', 'hola']
 
-console.log('myArray: ', myArray)
-
-let deletedElements = myArray.splice(1, 2)
-
-console.log('myArray: ', myArray)
-console.log('deletedElements: ', deletedElements)
+for (let index = 0; index < myArray.length; index++) {
+    const element = myArray[index];
+    if (element) {
+        index = 3
+        console.log(myArray)
+        
+    }
+    console.log(element)
+}
