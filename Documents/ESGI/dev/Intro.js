@@ -1,4 +1,7 @@
-let test ='une constante';
+let uneString = '';
 
-test = 43;
+const uneAutreString = uneString.concat(' ','test')
+
+console.log(uneString)
+console.log(uneAutreString)
 
